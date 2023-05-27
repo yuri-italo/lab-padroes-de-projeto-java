@@ -1,6 +1,6 @@
 package dev.yuri.gof.singleton;
 
-public class TesteSingleton {
+public class Main {
     public static void main(String[] args) {
         SingletonLazy singletonLazy = SingletonLazy.getInstancia();
         System.out.println("Endereço de memoria instancia lazy 1 -> " + singletonLazy);

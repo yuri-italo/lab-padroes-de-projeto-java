@@ -1,6 +1,6 @@
 package dev.yuri.gof.strategy;
 
-public class TesteStrategy {
+public class Main {
     public static void main(String[] args) {
         Comportamento normal = new ComportamentoNormal();
         Comportamento defensivo = new ComportamentoDefensivo();
